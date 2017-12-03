@@ -12,6 +12,7 @@ import {
   View
 } from 'react-native';
 import OpacityTiming from './src/OpacityTiming';
+import TranslateTiming from './src/TranslateTiming';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -24,7 +25,7 @@ export default class App extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
-        <OpacityTiming />
+        <TranslateTiming/>
       </View>
     );
   }
