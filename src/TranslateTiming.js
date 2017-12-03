@@ -15,7 +15,7 @@ export default class TranslateTiming extends Component {
 				duration:280
 			}).start(()=>{
 				Animated.timing(this.state.animationVariable, {
-					toValue:height*-1.15,
+					toValue:height*-1.18,
 					duration:178
 				}).start();	
 			});
